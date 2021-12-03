@@ -7921,8 +7921,8 @@ header {
     font-weight: bold;
     color: #FFD700; }
   header h2, header .h2 {
-    font-family: italic "gluten" sans-serif;
-    font-style: italic "gluten" sans-serif;
+    font-style: italic;
+    font-family: 'gluten', sans-serif;
     color: #9e8a06; }
   header h3, header .h3 {
     color: white; }

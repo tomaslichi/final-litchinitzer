@@ -5,7 +5,7 @@
 // variables
 // $titulounofuente: 50px bold 'times new roman' serif;
 $titulounocolor: #FFD700;
-$titulodosfuente: italic 'gluten' sans-serif;
+// $titulodosfuente: italic 'gluten' sans-serif;
 $titulodoscolor: #9e8a06;
 * {
     margin: 0;
@@ -26,8 +26,8 @@ header {
         color: $titulounocolor;
     }
     h2 {
-        font-family: $titulodosfuente;
-        font-style: $titulodosfuente;
+        font-style: italic;
+        font-family: 'gluten', sans-serif;
         color: $titulodoscolor;
     }
     h3 {

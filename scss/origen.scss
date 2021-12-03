@@ -26,7 +26,8 @@ header {
         color: $titulounocolor;
     }
     h2 {
-        font: $titulodosfuente;
+        font-family: $titulodosfuente;
+        font-style: $titulodosfuente;
         color: $titulodoscolor;
     }
     h3 {

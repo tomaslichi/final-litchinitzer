@@ -7917,7 +7917,8 @@ header {
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, #090979 43%, #00d4ff 100%); }
   header h1, header .h1 {
-    font: 50px bold "times new roman" serif;
+    font-family: 'times new roman', serif;
+    font-weight: bold;
     color: #FFD700; }
   header h2, header .h2 {
     font: italic "gluten" sans-serif;

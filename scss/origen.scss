@@ -3,7 +3,7 @@
 @import "responsive";
 @import "../bootstrap/scss/bootstrap.scss";
 // variables
-$titulounofuente: 50px bold 'times new roman' serif;
+// $titulounofuente: 50px bold 'times new roman' serif;
 $titulounocolor: #FFD700;
 $titulodosfuente: italic 'gluten' sans-serif;
 $titulodoscolor: #9e8a06;
@@ -20,7 +20,9 @@ header {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
     h1 {
-        font: $titulounofuente;
+        // font: $titulounofuente;
+        font-family: 'times new roman', serif;
+        font-weight: bold;
         color: $titulounocolor;
     }
     h2 {

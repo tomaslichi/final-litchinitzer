@@ -1,0 +1,66 @@
+// grid index
+.grid-area {
+    display: grid;
+    grid-template-areas: "experiencia experiencia noticias" "nosotros nosotros noticias";
+    grid-template-columns: 35% 35% 1fr;
+    grid-template-rows: 2fr 3fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px;
+}
+
+#experiencia {
+    grid-area: experiencia;
+}
+
+.nosotros {
+    grid-area: nosotros;
+}
+
+// aside index 
+#noticiasIndex {
+    grid-area: noticias;
+    fieldset {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+// Buscador servicios 
+.contenedor-buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 0 20px;
+}
+
+.contenedor-servicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div {
+        margin: 10px;
+    }
+}
+
+// Mis Turnos 
+.sacarTurno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.misTurnosCalendar {
+    width: 600px;
+    height: 400px;
+}
+
+// footer
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

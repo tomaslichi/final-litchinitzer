@@ -1,0 +1,42 @@
+// Tablet
+@media (min-width: 600px) and (max-width:1023px) {
+    .grid-area {
+        display: grid;
+        grid-template-areas: "experiencia noticias" "nosotros noticias";
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 2fr 3fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin: 10px;
+    }
+    .misTurnosCalendar {
+        width: 550px;
+        height: 400px;
+    }
+    .blogComents {
+        width: 90%;
+    }
+}
+
+// Smartphone
+@media (max-width: 599px) {
+    .grid-area {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    #noticiasIndex fieldset {
+        height: 400px;
+        width: 100%;
+    }
+    .misTurnosCalendar {
+        width: 90%;
+        height: 300px;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    .blogComents {
+        width: 90%;
+    }
+}

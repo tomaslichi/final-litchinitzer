@@ -21,7 +21,7 @@
     <header class="centrar">
         <h1>Turnos Y Servicios</h1>
         <h2> Todos tus turnos en un mismo lugar </h2>
-        <h3 class="aLaDerecha"><a href="pages/iniciar_sesion.html">iniciar sesión</h3>
+        <h3 class="aLaDerecha"><a href="iniciar_sesion.html">iniciar sesión</h3>
             
         <!-- Barra menu -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,19 +47,80 @@
         <h2 class="negrita"> Blog </h2>
         <section>
             <form action="">
-                <label for="comentarios">Deja tu mensaje:</label>
+                <label for="comentarios" class="negrita">Deja tu mensaje:</label>
                 <textarea name="comentarios" class="blogComents" cols="60" rows="10"></textarea>
-                <input type="submit" value="Enviar" />
+                <input type="submit" value="Enviar" class="botones" />
             </form>
         </section>
 
         <br>
+        <section>
+            <div class="card blogcoments">
+                <h5 class="card-header">Ezequiel</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Muy bueno!</h5>
+                    <p class="card-text">Me sirvió mucho la página para sacar los turnos que necesitaba. Muy fácil y cómodo ya que pude conseguir un turno para cortarme el pelo y para ir a la odontologa sin tener que moverme de un sitio a otro.</p>
+                    <button type="button" class="btn btn-primary">Me gusta</button>
+                    <button type="button" class="btn btn-primary">No me gusta</button>
+                </div>
+            </div>
+            <div class="card blogcoments">
+                <h5 class="card-header">María</h5>
+                <div class="card-body">
+                    <h5 class="card-title">No me ayudó</h5>
+                    <p class="card-text">Quería sacar turno para ir al médico y no aparecía ningún turno disponible.</p>
+                    <button type="button" class="btn btn-primary">Me gusta</button>
+                    <button type="button" class="btn btn-primary">No me gusta</button>
+                </div>
+            </div>
+            <div class="card blogcoments">
+                <h5 class="card-header">Marcos</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Excelente</h5>
+                    <p class="card-text">Me es dificil manejarme en el mundo de la tecnología pero este sitio me ayuda a encontrar turnos cada vez que necesito hacer algun tramite o ver a un profesional.</p>
+                    <button type="button" class="btn btn-primary">Me gusta</button>
+                    <button type="button" class="btn btn-primary">No me gusta</button>
+                </div>
+            </div>
+            <div class="card blogcoments" aria-hidden="true">
+                <h5 class="card-header placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                </h5>
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-7"></span>
+                    </h5>
+                    <p class="card-text placeholder-glow">
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-9"></span>
+                        <span class="placeholder col-3"></span>
+                        <span class="placeholder col-8"></span>
+                        <span class="placeholder col-5"></span>
+                    </p>
+                    <a class="btn btn-primary disabled placeholder col-2"></a>
+                    <a class="btn btn-primary disabled placeholder col-2"></a>
+                </div>
+            </div>
+        </section>
 
 
-
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link">Anterior</a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Siguiente</a>
+                </li>
+            </ul>
+        </nav>
     </main>
-
-    <hr>
 
     <footer class="contenedor-footer">
         <div><i class="icofont-ui-calendar"></i></div>

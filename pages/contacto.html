@@ -20,7 +20,7 @@
     <header class="centrar">
         <h1>Turnos Y Servicios</h1>
         <h2> Todos tus turnos en un mismo lugar </h2>
-        <h3 class="aLaDerecha"><a href="pages/iniciar_sesion.html">iniciar sesión</h3>
+        <h3 class="aLaDerecha"><a href="iniciar_sesion.html">iniciar sesión</h3>
 
         <!-- Barra menu -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -44,8 +44,8 @@
 
     <main>
         <!--contacto-->
-        <article>
-            <h2 class="negrita" id="contacto">Contacto</h3>
+        <article id="contacto">
+            <h2 class="negrita">Contacto</h3>
                 <fieldset>
                     <form action="">
                         <label for="nombre">Nombre:</label>
@@ -55,7 +55,7 @@
                         <label for="correo">Correo electrónico:</label>
                         <input type="email" name="correo" placeholder="juanperez@mail.com"><br>
                         <div>Causa de contacto</div>
-                        <select name="causa">
+                        <select name="causa" class="botones">
             <option value="servicio">Consulta sobre servicios</option>
             <option value="ayuda">Ayuda</option>
             <option value="queja">Quejas</option>
@@ -65,15 +65,13 @@
                         <div>¿Acepta ser contactado/a en un futuro si su mensaje lo requiere?</div>
                         <input type="checkbox" name="acepta" value="1" /><br>
 
-                        <input type="submit" value="Enviar" />
-                        <input type="reset" value="Limpiar formulario" />
+                        <input type="submit" class="botones" value="Enviar" />
+                        <input type="reset" class="botones" value="Limpiar formulario" />
                     </form>
                 </fieldset>
         </article>
 
     </main>
-
-    <hr>
 
     <footer class="contenedor-footer">
         <div><i class="icofont-ui-calendar"></i></div>

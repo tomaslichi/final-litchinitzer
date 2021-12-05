@@ -21,6 +21,7 @@ header {
         // font: $titulounofuente;
         font-family: 'times new roman', serif;
         font-weight: bold;
+        font-size: 50px;
         color: $titulounocolor;
     }
     h2 {
@@ -29,7 +30,10 @@ header {
         color: $titulodoscolor;
     }
     h3 {
-        color: white;
+        font-size: 20px;
+        a {
+            color: white;
+        }
     }
 }
 

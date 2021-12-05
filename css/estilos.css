@@ -59,6 +59,14 @@
   width: 600px;
   height: 400px; }
 
+#contacto {
+  margin: 10px; }
+  #contacto fieldset {
+    background-color: #a6d0f3; }
+  #contacto .botones {
+    background: #030f53;
+    color: white; }
+
 .contenedor-footer {
   display: flex;
   justify-content: space-between;

@@ -58,6 +58,18 @@
     height: 400px;
 }
 
+// contacto
+#contacto {
+    margin: 10px;
+    fieldset {
+        background-color: rgb(166, 208, 243);
+    }
+    .botones {
+        background: rgb(3, 15, 83);
+        color: white;
+    }
+}
+
 // footer
 .contenedor-footer {
     display: flex;

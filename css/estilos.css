@@ -7917,10 +7917,12 @@ header {
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, #090979 43%, #00d4ff 100%); }
   header h1, header .h1 {
-    font: 50px bold "times new roman" serif;
+    font-family: 'times new roman', serif;
+    font-weight: bold;
     color: #FFD700; }
   header h2, header .h2 {
-    font: italic "gluten" sans-serif;
+    font-style: italic;
+    font-family: 'gluten', sans-serif;
     color: #9e8a06; }
   header h3, header .h3 {
     color: white; }
@@ -7928,6 +7930,7 @@ header {
 footer {
   background-color: #324f9e;
   background-image: linear-gradient(108deg, #324f9e 0%, #190882 27%, #110240 59%); }
-  footer i {
-    font-size: 30px;
-    color: white; }
+
+i {
+  font-size: 30px;
+  color: white; }

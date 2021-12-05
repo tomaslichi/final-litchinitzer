@@ -13,6 +13,10 @@
 .centrar {
   text-align: center; }
 
+.botones {
+  background: #030f53;
+  color: white; }
+
 .grid-area {
   display: grid;
   grid-template-areas: "experiencia experiencia noticias" "nosotros nosotros noticias";
@@ -65,9 +69,6 @@
 
 #contacto {
   margin: 10px; }
-  #contacto .botones {
-    background: #030f53;
-    color: white; }
 
 .contenedor-footer {
   display: flex;

@@ -90,8 +90,10 @@
   .misTurnosCalendar {
     width: 90%;
     height: 300px; }
-  h1, .h1 {
+  header h1, header .h1 {
     font-size: 8vw; }
+  header h3, header .h3 {
+    font-size: 16px; }
   .blogComents {
     width: 90%; } }
 
